@@ -1239,13 +1239,13 @@ public class ActionBarView extends AbsActionBarView {
                 event.getText().add(cdesc);
             }
         }
-
+/*
         @Override
         public boolean dispatchHoverEvent(MotionEvent event) {
             // Don't allow children to hover; we want this to be treated as a single component.
             return onHoverEvent(event);
         }
-
+*/
         @Override
         protected void onFinishInflate() {
             mUpView = findViewById(R.id.abs__up);

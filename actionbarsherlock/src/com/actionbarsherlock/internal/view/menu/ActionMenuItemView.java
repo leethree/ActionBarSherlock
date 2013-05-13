@@ -25,6 +25,7 @@ import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.text.TextUtils;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.MotionEvent;
 import android.view.View;
@@ -224,7 +225,7 @@ public class ActionMenuItemView extends LinearLayout
             event.getText().add(cdesc);
         }
     }
-
+/*
     @Override
     public boolean dispatchHoverEvent(MotionEvent event) {
         // Don't allow children to hover; we want this to be treated as a single component.
@@ -232,6 +233,12 @@ public class ActionMenuItemView extends LinearLayout
             return onHoverEvent(event);
         }
         return false;
+    }
+*/
+    @Override
+    public boolean onHoverEvent(MotionEvent event) {
+        Log.v("onHoverEvent", "hover!" + event);
+        return super.onHoverEvent(event);
     }
 
     public boolean showsIcon() {

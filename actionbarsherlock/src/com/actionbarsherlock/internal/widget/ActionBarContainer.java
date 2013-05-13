@@ -124,7 +124,7 @@ public class ActionBarContainer extends NineFrameLayout {
         // An action bar always eats touch events.
         return true;
     }
-
+/*
     @Override
     public boolean onHoverEvent(MotionEvent ev) {
         super.onHoverEvent(ev);
@@ -132,7 +132,7 @@ public class ActionBarContainer extends NineFrameLayout {
         // An action bar always eats hover events.
         return true;
     }
-
+*/
     public void setTabContainer(ScrollingTabContainerView tabView) {
         if (mTabContainer != null) {
             removeView(mTabContainer);
