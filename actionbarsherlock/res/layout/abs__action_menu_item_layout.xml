@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 
-<com.actionbarsherlock.internal.view.menu.ActionMenuItemView xmlns:android="http://schemas.android.com/apk/res/android"
+<com.actionbarsherlock.internal.view.menu.HoverActionMenuItemView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_gravity="center"
@@ -53,4 +53,4 @@
             android:paddingLeft="4dip"
             android:paddingRight="4dip"
             android:focusable="false" />
-</com.actionbarsherlock.internal.view.menu.ActionMenuItemView>
+</com.actionbarsherlock.internal.view.menu.HoverActionMenuItemView>
