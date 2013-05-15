@@ -25,9 +25,7 @@ import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.text.TextUtils;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.Gravity;
-import android.view.MotionEvent;
 import android.view.View;
 import android.view.accessibility.AccessibilityEvent;
 import android.widget.ImageButton;
@@ -235,11 +233,6 @@ public class ActionMenuItemView extends LinearLayout
         return false;
     }
 */
-    @Override
-    public boolean onHoverEvent(MotionEvent event) {
-        Log.v("onHoverEvent", "hover!" + event);
-        return super.onHoverEvent(event);
-    }
 
     public boolean showsIcon() {
         return true;
