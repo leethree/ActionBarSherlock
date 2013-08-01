@@ -50,7 +50,7 @@ public abstract class ActionBarSherlock {
     static {
         //Register our two built-in implementations
         registerImplementation(ActionBarSherlockCompat.class);
-        registerImplementation(ActionBarSherlockNative.class);
+        // XXX registerImplementation(ActionBarSherlockNative.class);
     }
 
 
